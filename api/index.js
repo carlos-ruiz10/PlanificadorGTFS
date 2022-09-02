@@ -9,7 +9,7 @@ const app = express();
 app.use(bodyParser.json());
 
 
-// ROUER
+// ROUTER
 app.use('/api/planificador', planificador);
 
 app.listen(config.api.port, () => {
